@@ -1,0 +1,1 @@
+All the 'Curso em Vídeo' challenges I solved using Python language. Follow the teacher @gustavoguanabara. Files renamed with '-STAR' were my favorite challenges 

@@ -1,7 +1,9 @@
 lista = []
 teste = []
+print('=-'*30)
 for i in range(0,5):
     lista.append(int(input(f'Digite um valor para posição {i}: ')))
+print('=-'*30)
 print(f'Você digitou os valores: {lista}')
 for i,v in enumerate(lista):
     if v == max(lista):

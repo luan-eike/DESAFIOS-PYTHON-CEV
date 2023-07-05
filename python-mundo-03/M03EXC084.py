@@ -6,8 +6,8 @@ maior = []
 menor = []
 while res not in 'NNÃONAO':
     dados = [str(input('Nome: ')).capitalize()]
-    dados.append(int(input('Peso: ')))
-    pessoas.append(dados)
+    dados.append(float(input('Peso: ')))
+    pessoas.append(dados[:])
     res = str(input('Deseja continuar [S/N]? ')).upper().strip()
 
 print(f'Ao todo você cadastrou {len(pessoas)} pessoas')

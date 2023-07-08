@@ -16,6 +16,7 @@ for i in range(0,len(pessoas)):
 while aluno != 999:
     aluno = int(input('Mostrar notas de qual aluno? (999 interrompe): '))
     if aluno == 999:
+        print('FINALIZANDO...')
         break
     else:
         print(f'Notas de {pessoas[aluno][0]} são {pessoas[aluno][1:3]}')

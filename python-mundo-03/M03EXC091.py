@@ -21,3 +21,6 @@ for i, v in enumerate(sorted(jogadores.values(), reverse=True)):
         if jogadores.keys() == v:
             j = jogadores.keys()
             print(f'{i+1} lugar: {j} com {v}')
+
+for ind, item in enumerate(jogadores.values()):
+    print(f'{ind} and {item}')
